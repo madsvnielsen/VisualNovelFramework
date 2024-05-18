@@ -10,13 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15f20df842a52404dbf24e7744b5fe49, type: 3}
-  m_Name: NewDialogue
+  m_Name: 1_start
   m_EditorClassIdentifier: 
-  sender: {fileID: 0}
-  receiver: {fileID: 0}
-  message: Hej med dig
+  sender: {fileID: 11400000, guid: d4144d084dd672a4790fb9a220539959, type: 2}
+  receiver: {fileID: 11400000, guid: c5f945373fb2eac43bd3dfd40c8b101e, type: 2}
+  message: Start
   nextDialogue: {fileID: 0}
-  choices: []
+  choices:
+  - text: Hej!
+    nextDialogue: {fileID: 0}
+    nextScene: 
+  - text: Hvad hedder du?
+    nextDialogue: {fileID: 0}
+    nextScene: 
   backdrop: {fileID: 0}
   soundClip: {fileID: 0}
   nextScene: 

@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15f20df842a52404dbf24e7744b5fe49, type: 3}
-  m_Name: Start
+  m_Name: 2_min ven
   m_EditorClassIdentifier: 
   sender: {fileID: 11400000, guid: c5f945373fb2eac43bd3dfd40c8b101e, type: 2}
   receiver: {fileID: 11400000, guid: d4144d084dd672a4790fb9a220539959, type: 2}
-  message: Why are you looking at me like that?
+  message: Er du min ven?
   nextDialogue: {fileID: 0}
   choices:
-  - text: Wdym?
-    nextDialogue: {fileID: 11400000, guid: 583da912aebc42e47ac6fb211df7f557, type: 2}
+  - text: Ja
+    nextDialogue: {fileID: 0}
     nextScene: 
-  - text: Youre cute
-    nextDialogue: {fileID: 11400000, guid: 546ee4c45cdcab64c9a471e64ee6dc75, type: 2}
+  - text: Nej
+    nextDialogue: {fileID: 0}
     nextScene: 
-  backdrop: {fileID: 21300000, guid: f4000aed6d7eaf94783c00b38a5f344b, type: 3}
+  backdrop: {fileID: 0}
   soundClip: {fileID: 0}
   nextScene: 
